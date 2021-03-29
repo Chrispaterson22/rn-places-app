@@ -66,7 +66,7 @@ const NewPlaceScreen = props => {
 }
 
 NewPlaceScreen.navigationOptions = {
-	headerTitle: 'Add Place',
+	headerTitle: 'Add New Place',
 }
 
 export default NewPlaceScreen
