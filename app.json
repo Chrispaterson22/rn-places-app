@@ -15,12 +15,26 @@
 		},
 		"assetBundlePatterns": ["**/*"],
 		"ios": {
+			"bundleIdentifier": "io.cheeky-monkey.great-places-app",
+			"buildNumber": "1.0.0",
 			"supportsTablet": true
 		},
 		"android": {
+			"package": "io.cheeky_monkey.great_places_app",
+			"versionCode": 1,
 			"adaptiveIcon": {
 				"foregroundImage": "./assets/places-adaptive.png",
 				"backgroundColor": "#171717"
+			},
+			"permissions": [
+				"ACCESS_FINE_LOCATION",
+				"CAMERA",
+				"WRITE_EXTERNAL_STORAGE"
+			],
+			"config": {
+				"googleMaps": {
+					"apiKey": "AIzaSyBAUu_TihE-onoo9N17SdoYawX_r3uEJa4"
+				}
 			}
 		},
 		"web": {
